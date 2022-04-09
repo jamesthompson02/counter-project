@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+@media screen and (min-width: 0px) {
+    body {
+        margin: 0px;
+        width: 100vw;
+        height: 100vh;
+    }
+    #container {
+        width: 100%;
+        height: 100%;
+        background-color: #9aa;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    #counter-container {
+        width: 550px;
+        height: 350px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #counter-title {
+        width: 90%;
+        font-family: 'Lato';
+        font-size: 60px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    #counter-number-display {
+        width: 100%;
+        font-family: 'Lato';
+        font-size: 72px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    #btns-box {
+        margin-top: 25px;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .button {
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        font-size: 20px;
+        font-family: 'Lato';
+    }
+    .button:hover {
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+    #prime-result-container {
+        width: 300px;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: none;
+    }
+    #need-help-btn {
+        position: absolute;
+        bottom: 10px;
+        left: auto;
+        right: auto;
+        width: 150px;
+    }
+    #instructions-container {
+        position: absolute;
+        bottom: 0px;
+        height: 100px;
+        width: 500px;
+        border: 1px solid black;
+        background-color: black;
+        display: none;
+    }
+    #instructions-container-2 {
+        height: 80%;
+        width: 100%;
+        position: relative;
+        overflow-y: scroll;
+        border-top: 2px solid black;  
+        background-color: #9aa;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        font-family: 'Lato'; 
+    }
+    #instructions-title {
+        text-decoration: underline;
+    }
+    #close-btn {
+        margin: 0px;
+        height: 18px;
+        width: 18px;
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: #e9e9e9;
+        border: none;
+    }
+    .fa-xmark {
+        font-size: 18px;
+    }
+    #close-btn:hover {
+        background-color: red;
+        color: white;
+    }
+}
